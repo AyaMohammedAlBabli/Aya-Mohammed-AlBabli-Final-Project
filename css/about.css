@@ -1,0 +1,67 @@
+/* 
+Name : Aya Mohammed Shukri Al-Babli
+University number : 2301201625
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-title h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.main-title p {
+    font-size: 14px;
+    color: #555;
+}
+
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.history .image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.history .about-restaurant {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.history .about-restaurant h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.history .about-restaurant p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}

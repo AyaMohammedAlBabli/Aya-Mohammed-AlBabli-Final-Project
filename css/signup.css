@@ -1,0 +1,55 @@
+/* 
+Name : Aya Mohammed Shukri Al-Babli
+University number : 2301201625
+*/
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(../imgs/simple-house-01.jpg);
+    margin: 0;
+}
+
+.registration-container {
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registration-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #30BA51;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.registration-container button:hover {
+    background-color: #218838;
+}

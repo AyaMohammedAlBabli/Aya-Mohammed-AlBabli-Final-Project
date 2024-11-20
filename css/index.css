@@ -1,0 +1,226 @@
+/* 
+Name : Aya Mohammed Shukri Al-Babli
+University number : 2301201625
+ */
+
+header {
+    background-color: #6a11cb;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+header .links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header .links li a:hover {
+    background-color: white;
+    color: #6a11cb;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-title {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-title h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.main-title p {
+    color: #555;
+    font-size: 16px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33% - 10px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.info h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.info .price {
+    color: #6a11cb;
+    font-weight: bold;
+}
+
+.redistributing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-template {
+    flex: 1;
+}
+
+.info-template h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.info-template p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.custom-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+
+.read-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-button:hover .read-link {
+    color: #ffdd57;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    color: #ffffff;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer section {
+    flex: 1;
+    margin: 10px;
+}
+
+.right {
+    text-align: left;
+}
+
+.right .links {
+    margin-bottom: 10px;
+}
+
+.right .links li {
+    list-style: none;
+    margin: 5px 0;
+    margin-top: 14px;
+    font-size: medium;
+    font: bold;
+}
+
+.right .links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.right #Copyright {
+    font-size: x-large;
+
+}
+
+.left .content {
+    margin-bottom: 15px;
+}
+
+.left .content a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.left .content a:hover {
+    text-decoration: underline;
+}
+
+.left .personal-account a img {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    border-radius: 30%;
+}
+
+.left .personal-account a img:hover {
+    transform: scale(1.2);
+}
